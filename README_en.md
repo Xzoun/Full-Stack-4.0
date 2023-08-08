@@ -2,6 +2,8 @@
 
 In collaboration with the Argentine government and Egg Cooperation, the Argentina Programa 4.0 course comes to life. In this repository, you'll find comprehensive guides, challenging exercises, and my own solutions.
 
+Note: All the documentation and excercises is in Spanish.
+
 - [Section 1: Introduction to Programming](#section-1)
 - [Section 2: BackEnd 1: Java](#section-2)
 - [Section 3: BackEnd 2: Java and Databases](#section-3)
@@ -39,7 +41,7 @@ Access Modifiers | Control Class (Service) | Patterns | Utility Classes.
 ### BackEnd 2: Java and Databases.
 
 ### Module 1 | Collections: Definition and Characteristics
-Arrays | Collections Class.
+Lists | Collections Class.
 
 ### Module 2 | Class Relationships
 Types of Class Relationships | Relationships in Code | UML.

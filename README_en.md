@@ -76,7 +76,7 @@ Definition and Characteristics | JSX | Components | Lifecycle | React Hooks.
 ### Module 1 | Spring MVC
 Definition and Characteristics | Best Practices | Spring Register & Login.
 
-### Certificates:
+## Certificates:
 
 Here you'll find links to the certificates issued by the Argentine Ministry of Knowledge Economy and Egg Cooperation.
 

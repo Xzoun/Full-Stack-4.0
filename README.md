@@ -89,7 +89,7 @@ Definición y características | JSX | Componentes | Ciclo de Vida | React Hooks
 
 Definicion y caracteristicas | Buenas Practicas | Spring Register & Login.
 
-### Certificados:
+## Certificados:
 
 Aquí esta el acceso a los certificados emitidos por la Secretaría de Economía del Conocimiento Argentina y Egg Cooperation.
  

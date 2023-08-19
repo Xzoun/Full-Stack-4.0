@@ -135,6 +135,7 @@ public class LibroServicios {
         for (Libro libro : libros) {
             if (libro.getAlta() == true && libro.getTitulo().toLowerCase().contains(nombre.toLowerCase())) {
                 System.out.println(libro.getTitulo() + " | ID: " + libro.getIsbn());
+                coincidencia = true;
             }
         }
         

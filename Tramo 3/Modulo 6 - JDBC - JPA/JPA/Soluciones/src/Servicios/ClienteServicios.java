@@ -111,6 +111,7 @@ public class ClienteServicios {
         Boolean coincidencia = false;
 
         for (Cliente cliente : clientes) {
+           
             if (cliente.getNombre().toLowerCase().contains(dato.toLowerCase())
                     || cliente.getApellido().toLowerCase().contains(dato.toLowerCase())) {
                 System.out.println(cliente.getNombre() + " | ID: " + cliente.getDocumento());

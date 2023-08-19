@@ -1,0 +1,16 @@
+.div {
+    height: 110px;
+    background-color: aqua;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+body {
+    background-image: url("../Imagenes/Ejercicio Extra 3/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

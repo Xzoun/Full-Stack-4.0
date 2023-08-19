@@ -1,0 +1,15 @@
+.margin{
+    margin: 60px 20px 0px 20px;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.boton{
+    margin: 10px;    
+}
+body{
+    text-align: center;
+}

@@ -9,20 +9,21 @@ const cargarBtn = document.getElementById("cargar"),
     array = []; // Declarar un array vacío fuera de la función
 
 cargarBtn.addEventListener("click", () => {
-    const numero = numeroHTML.value || Math.floor(Math.random() * 10);
+    let numero = numeroHTML.value || Math.floor(Math.random() * 10);
     numeroHTML.value = "";
     cargarArray(numero)
 });
 
 function cargarArray(nuevoElemento) {
     array.push(nuevoElemento);
-    const newOutput = array.join(", ");
+    let newOutput = array.join(", ");
     arrayOutput.innerText = newOutput;
 }
 
 popBtn.addEventListener("click", () => {
     array.pop();
-    const newOutput = array.join(", ");
+    array.pop();
+    let newOutput = array.join(", ");
     arrayOutput.innerText = newOutput;
 })
 

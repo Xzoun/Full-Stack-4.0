@@ -11,9 +11,10 @@ let contador = 0,
     array2 = [];
 
 iniciarBtn.addEventListener("click", () => {
-    iniciarBtn.style.display = "none";
+    array1 = [],
+    array2 = [];
     for (let i = 0; i < 10; i++) {
-        cargarArray(Math.floor(Math.random()*10));
+        cargarArray(Math.floor(Math.random()*100));
     }
     mostrarArrays();
 })

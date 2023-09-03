@@ -16,9 +16,9 @@ aBtn.addEventListener("click", () => {
     let masLarga = "";
     for (let i = 0; i < valores.length; i++) {
         if (typeof valores[i] == "string") {
-            let inicial = valores[i];
-            if (inicial > masLarga) {
-                masLarga = inicial;
+            let actual = valores[i];
+            if (actual > masLarga) {
+                masLarga = actual;
             }
         }
     }
@@ -39,7 +39,10 @@ bBtn.addEventListener("click", () => {
 
         }
     }
-    salida.innerText = boolean1 + " " + boolean2;
+    let resultadoTrue = boolean1 || boolean2,
+        resultadoFalse = boolean1 && boolean2;
+    salida.innerText = "true || false:   " + resultadoTrue + "\n" +
+        "true && false: " + resultadoFalse;
 })
 
 cBtn.addEventListener("click", () => {
@@ -55,9 +58,11 @@ cBtn.addEventListener("click", () => {
             }
 
         }
+
     }
     salida.innerText = num1 + " + " + num2 + " = " + (num1 + num2) + "\n" +
         num1 + " - " + num2 + " = " + (num1 - num2) + "\n" +
         num1 + " * " + num2 + " = " + (num1 * num2) + "\n" +
-        num1 + " / " + num2 + " = " + (num1 / num2);
+        num1 + " / " + num2 + " = " + (num1 / num2) + "\n" +
+        num1 + " % " + num2 + " = " + (num1 % num2);
 })

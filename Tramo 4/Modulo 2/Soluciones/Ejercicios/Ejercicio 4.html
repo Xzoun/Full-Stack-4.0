@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia JavaScript</title>
+    <link href="./Css/Ejercicio.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="ejercicio">
+        <h1>Ejercicio 4</h1>
+        <p>Realiza un programa que sólo permita introducir los caracteres ‘S’ y ‘N’. Si el usuario
+            ingresa alguno de esos dos caracteres se deberá de imprimir un mensaje por pantalla
+            que diga “CORRECTO”, en caso contrario, se deberá imprimir “INCORRECTO”.</p>
+        <h3 id="salida"></h3>
+        <label class="w-75 form-label" for="adivina">Puedes adivinarlo? S/N</label>
+        <input class="w-75 form-control" type="string" id="adivina" name="adivina">
+        <div id="respuesta">
+            <label class="w-75 form-label" for="solucion">Ingrese su respuesta</label>
+            <input class="w-75 form-control" type="string" id="solucion" name="solucion">
+            <button class="btn btn-outline-secondary" id="verificar">Verificar</button>
+        </div>
+        <button class="btn btn-outline-secondary" id="otro">Buscar otro</button>
+
+    </div>
+    <a class="enlaceAtras" href="../index.html"> <button class="btn ejercicio btnAtras"><img class="imgAtras"
+                src="./Imagenes/Izquierda.png" alt="">Volver</button></a>
+    <script type="module" src="./JavaScript/Ejercicio 4.js"></script>
+</body>
+
+</html>

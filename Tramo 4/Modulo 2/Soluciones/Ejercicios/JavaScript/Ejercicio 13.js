@@ -25,7 +25,7 @@ cargarBtn.addEventListener("click", () => {
 
 function crearPersona() {
 
-    var persona = {
+    let persona = {
         nombre: nombreHTML.value,
         edad: edadHTML.value,
         sexo: sexoHTML.value,
@@ -52,6 +52,6 @@ function mostrarPersona(persona) {
     } else {
         persona.sexo = "Indefinido";
     }
-    let personaString = "nombre: " + persona.nombre + ", edad: " + persona.edad + ", sexo: " + persona.sexo + ", peso: " + persona.peso + ", altura: " + persona.altura;
+    let personaString = "Nombre: " + persona.nombre + ", Edad: " + persona.edad + ", Sexo: " + persona.sexo + ", Peso: " + persona.peso + ", Altura: " + persona.altura;
     salida.innerText = personaString;
 }

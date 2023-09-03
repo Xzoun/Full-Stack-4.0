@@ -11,7 +11,7 @@ tipodeDatoBtn.addEventListener("click", () => {
         document.getElementById("respuesta").style.display = "none";
         alert("Debes completar el campo!")
     } else if (!isNaN(valor)) {
-        tipoDeDato.innerText = "number";
+        tipoDeDato.innerText = "Number";
     } else if (valor.toLowerCase() === "true" || valor.toLowerCase() === "false") {
         tipoDeDato.innerText = "Boolean";
     } else if (valor === "null") {

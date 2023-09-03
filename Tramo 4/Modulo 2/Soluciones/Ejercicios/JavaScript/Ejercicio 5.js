@@ -28,8 +28,8 @@ function SRMD(operador) {
     if (primerNumero == null) {
         primerNumero = salida.innerText;
         primerNumero = parseInt(primerNumero);
-        salidaOperador.innerText = operador;
     }
+    salidaOperador.innerText = operador;
 }
 
 function resultado(operador) {
@@ -70,24 +70,29 @@ function borrar() {
 
 // ----------------------------- Teclado -----------------------------
 document.addEventListener('keydown', function (event) {
+    let continuar = false;
     if (event.key === 'Enter') {
         resultado(operador);
     } else if (!isNaN(event.key) && event.key !== ' ') {
         let numeroPresionado = parseInt(event.key);
         crearNumero(numeroPresionado);
-    } else if (['/', '*', '-', '+', 's', 'S', 'r', 'R', 'd', 'D', 'm', 'M'].includes(event.key)) {
-        if (event.key == 's' || event.key == 'S' || event.key == '+') {
-            operador = '+';
-        } else if (event.key == 'r' || event.key == 'R' || event.key == '-') {
-            operador = '-';
-        } else if (event.key == 'm' || event.key == 'M' || event.key == '*') {
-            operador = '*';
-        } else if (event.key == 'd' || event.key == 'D' || event.key == '/') {
-            operador = '/';
-        }
-        SRMD(operador);
+    } else if (event.key == 's' || event.key == 'S' || event.key == '+') {
+        operador = '+';
+        continuar = true;
+    } else if (event.key == 'r' || event.key == 'R' || event.key == '-') {
+        operador = '-';
+        continuar = true;
+    } else if (event.key == 'm' || event.key == 'M' || event.key == '*') {
+        operador = '*';
+        continuar = true;
+    } else if (event.key == 'd' || event.key == 'D' || event.key == '/') {
+        operador = '/';
+        continuar = true;
     } else if (event.key == 'Backspace') {
         borrar();
+    }
+    if (continuar) {
+        SRMD(operador);
     }
 });
 

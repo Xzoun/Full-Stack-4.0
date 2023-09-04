@@ -8,6 +8,7 @@ Note: All the documentation and excercises is in Spanish.
 - [Section 2: BackEnd 1: Java](#section-2)
 - [Section 3: BackEnd 2: Java and Databases](#section-3)
 - [Section 4: FrontEnd](#section-4)
+- [JavaScript Guide Exercise Showcase](#javascript-guide-exercises)
 - [Section 5: Spring MVC](#section-5)
 - [Full Stack Junior Course Certificates, Egg Cooperation](#certificates)
 
@@ -75,6 +76,11 @@ Definition and Characteristics | JSX | Components | Lifecycle | React Hooks.
 
 ### Module 1 | Spring MVC
 Definition and Characteristics | Best Practices | Spring Register & Login.
+
+## JavaScript Guide Exercises
+Here you can find a webpage created with the purpose of applying knowledge of JavaScript, Bootstrap, HTML and CSS.
+
+* https://xzoun.github.io/Guia-JS/
 
 ## Certificates:
 

@@ -6,8 +6,10 @@ En colaboración con el gobierno argentino y la entidad Egg Cooperation, el curs
 - [Tramo 2: BackEnd 1: Java](#tramo-2)
 - [Tramo 3: BackEnd 2: Java y Bases de Datos](#tramo-3)
 - [Tramo 4: FrontEnd](#tramo-4)
+- [Muestrario de ejercitacion Guia JavaScript](#ejercicios-guia-js)
 - [Tramo 5: Spring MVC](#tramo-5)
 - [Certificados del Curso Full Stack junior, Egg Cooperation](#certificados)
+
 
 Encontrarás una amplia gama de lenguajes y tecnologías, como Java, JavaScript y SQL. Incluyendo pseudocódigo para construir una base sólida en lógica de programación, utilizando la herramienta PseInt. 
 
@@ -78,6 +80,7 @@ Definición y características | Etiquetas y atributos | Selectores | Implementa
 
 Definición y características | Variables y Tipo de Datos | Objetos | JSON | API | Manejo de Errores.
 
+
 ### Módulo 3 | React y Node.js
 
 Definición y características | JSX | Componentes | Ciclo de Vida | React Hooks.
@@ -89,10 +92,16 @@ Definición y características | JSX | Componentes | Ciclo de Vida | React Hooks
 
 Definicion y caracteristicas | Buenas Practicas | Spring Register & Login.
 
-## Certificados:
+## Ejercicios Guia JavaScript
+Aquí podran encontrar una página hecha con el fin de aplicar los conocimientos de JavaScript, Bootstrap, HTML y CSS.
 
+* https://xzoun.github.io/Guia-JS/
+
+## Certificados:
 Aquí esta el acceso a los certificados emitidos por la Secretaría de Economía del Conocimiento Argentina y Egg Cooperation.
  
 * https://photos.app.goo.gl/gPy8K8vfhgM2XwsX6
+
+
 
 ### ¡Gracias por visitar mi repositorio y ser parte de mi formación como programador!

@@ -6,7 +6,7 @@ En colaboración con el gobierno argentino y la entidad Egg Cooperation, el curs
 - [Tramo 2: BackEnd 1: Java](#tramo-2)
 - [Tramo 3: BackEnd 2: Java y Bases de Datos](#tramo-3)
 - [Tramo 4: FrontEnd](#tramo-4)
-- [Muestrario de ejercitacion Guia JavaScript](#ejercicios-guia-js)
+- [Muestrario de ejercitacion Guia JavaScript](#ejercicios-guia-javascript)
 - [Tramo 5: Spring MVC](#tramo-5)
 - [Certificados del Curso Full Stack junior, Egg Cooperation](#certificados)
 

@@ -72,12 +72,6 @@ JDBC | Definición y características | Componentes JDBC | Patrones de Diseño: 
 ## Tramo 4
 ### FrontEnd
 
-## Ejercicios Guia FrontEnd
-
-Aquí podran encontrar una página hecha con el fin de aplicar los conocimientos adquiridos en la resolucion de los ejercicios correspondientes al tramo 4.
-
-* xzoun.github.io/Guia-FrontEnd/
-
 ### Módulo 1 | HTML, CSS y Bootstrap
 
 Definición y características | Etiquetas y atributos | Selectores | Implementación del FrameWork.
@@ -96,6 +90,14 @@ Definición y características | JSX | Componentes | Ciclo de Vida | React Hooks
 ### Modulo 1 | Spring MVC
 
 Definicion y caracteristicas | Buenas Practicas | Spring Register & Login.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+## Ejercicios Guia FrontEnd
+
+Aquí podran encontrar una página hecha con el fin de aplicar los conocimientos adquiridos en la resolucion de los ejercicios correspondientes al tramo 4.
+
+* xzoun.github.io/Guia-FrontEnd/
 
 ## Certificados:
 Aquí esta el acceso a los certificados emitidos por la Secretaría de Economía del Conocimiento Argentina y Egg Cooperation.

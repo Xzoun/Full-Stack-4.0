@@ -95,7 +95,7 @@ Definicion y caracteristicas | Buenas Practicas | Spring Register & Login.
 ## Ejercicios Guia JavaScript
 Aquí podran encontrar una página hecha con el fin de aplicar los conocimientos de JavaScript, Bootstrap, HTML y CSS.
 
-* https://xzoun.github.io/Guia-JS/
+* xzoun.github.io/Guia-FrontEnd/
 
 ## Certificados:
 Aquí esta el acceso a los certificados emitidos por la Secretaría de Economía del Conocimiento Argentina y Egg Cooperation.

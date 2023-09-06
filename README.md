@@ -97,7 +97,7 @@ Definicion y caracteristicas | Buenas Practicas | Spring Register & Login.
 
 Aquí podran encontrar una página hecha con el fin de aplicar los conocimientos adquiridos en la resolucion de los ejercicios correspondientes al tramo 4.
 
-* xzoun.github.io/Guia-FrontEnd/
+* https://xzoun.github.io/Guia-FrontEnd/
 
 ## Certificados:
 Aquí esta el acceso a los certificados emitidos por la Secretaría de Economía del Conocimiento Argentina y Egg Cooperation.

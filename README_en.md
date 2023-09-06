@@ -80,7 +80,7 @@ Definition and Characteristics | Best Practices | Spring Register & Login.
 ## JavaScript Guide Exercises
 Here you can find a webpage created with the purpose of applying knowledge of JavaScript, Bootstrap, HTML and CSS.
 
-* https://xzoun.github.io/Guia-JS/
+* xzoun.github.io/Guia-FrontEnd/
 
 ## Certificates:
 

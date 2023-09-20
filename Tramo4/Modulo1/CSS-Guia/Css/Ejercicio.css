@@ -1,0 +1,84 @@
+/* ------------------ Ejercicio 7 ------------------ */
+
+#Ejercicio7 {
+    font-family: 'sans-serif', 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS';
+    background-color: rgba(127, 255, 238, 0.548);
+}
+
+.encabezado {
+    text-align: center;
+}
+
+.parrafo {
+    font-weight: 800;
+    color: #cc0000;
+    text-align: left;
+}
+
+/* ------------------ Ejercicio 8 ------------------ */
+a {
+    text-decoration: none;
+    color: #CC0000;
+}
+
+.Ejercicio8:hover {
+    color: #FFF;
+    background-color: #cc0000;
+}
+
+a:visited {
+    color: grey;
+}
+
+/* ------------------ Ejercicio 9 ------------------ */
+
+#encabezado1 {
+    color: rgb(16, 151, 161);
+}
+
+.parrafo1 {
+    font-weight: 600;
+}
+
+table {
+    border-collapse: collapse;
+    font-weight: 800;
+}
+
+td {
+    border: solid black 1px;
+    padding: 4px;
+}
+
+.subrayado {
+    text-decoration: underline;
+}
+
+/* ------------------ Ejercicio 9 - Colores ------------------ */
+.dorado {
+    color: rgb(156, 133, 1);
+}
+
+.azul {
+    color: blue;
+}
+
+.amarillo {
+    color: gold;
+}
+
+.verde {
+    color: rgb(19, 136, 19);
+}
+
+.morado {
+    color: rgb(122, 16, 113);
+}
+
+.rosa {
+    color: rgb(232, 119, 247);
+}
+
+.rojo {
+    color: red;
+}

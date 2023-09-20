@@ -1,0 +1,189 @@
+/* --------------------- General --------------------- */
+
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    background-image: url('../Imagenes/codigoFondo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-weight: 600;
+    z-index: -10;
+}
+
+.enlaceAtras {
+    filter: invert(1);
+}
+
+.divGeneral {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 50px;
+    padding-top: 10px;
+    margin-top: 80px;
+}
+
+/* --------------------- Ejercicio 1 --------------------- */
+#body {
+    color: white;
+}
+
+.lista {
+    list-style: none;
+    padding: 5px 10px;
+    font-size: 3ch;
+    cursor: pointer;
+}
+
+.ejercicio1 {
+    color: violet;
+}
+
+#azul:hover {
+    color: #0051ff;
+    cursor: pointer;
+}
+
+#negro:hover {
+    color: grey;
+}
+
+#verde:hover {
+    color: rgba(42, 209, 1, 0.829);
+}
+
+#rojo:hover {
+    color: red;
+}
+
+#amarillo:hover {
+    color: gold;
+}
+
+#cian:hover {
+    color: rgb(63, 194, 255);
+}
+
+/* --------------------- Ejercicio 2 --------------------- */
+
+#tablaE2 {
+    color: black;
+}
+
+table.ejercicioE2 th,
+table.ejercicioE2 td {
+    border-collapse: collapse;
+    border: solid #333 1px;
+    text-align: center;
+    height: 35px;
+    width: 70px;
+    font-weight: 600;
+}
+
+table.ejercicioE2 thead th {
+    background-color: #e7e7e7;
+}
+
+.whiteBG {
+    background-color: white;
+}
+
+table.ejercicioE2 th {
+    background-color: #E6F3FF;
+    font-weight: 1000;
+}
+
+table.ejercicioE2 th.columna1 {
+    min-width: 120px;
+    text-align: left;
+}
+
+table.ejercicioE2 tr.yellow td {
+    background-color: #FFFFCC;
+}
+
+/* --------------------- Ejercicio 3 --------------------- */
+
+.white {
+    color: white;
+}
+
+.white:hover {
+    color: rgb(63, 194, 255);
+}
+
+.grey {
+    color: grey;
+}
+
+.grey:hover {
+    color: grey;
+    cursor: default;
+}
+
+.marginLeft {
+    margin-left: 15px;
+}
+
+/* --------------------- Ejercicio Final --------------------- */
+
+.destacado {
+    filter: invert(70%) sepia(64%) saturate(2394%) hue-rotate(146deg) brightness(96%) contrast(97%);
+}
+
+/* -------- Productos --------*/
+
+.background {
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    color: white;
+}
+
+.productosCont {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2%;
+}
+
+/* ---- Modal ----*/
+
+.cuerpoBody {
+    color: black;
+}
+
+div.cuerpoBodyCont {
+    display: flex;
+    justify-content: space-around;
+    gap: 2%;
+}
+
+div.cuerpoBodyCont img {
+    width: 60%;
+    height: min-content;
+    border-right: 3px solid black;
+}
+
+.cuerpoDescripcion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%
+}
+
+.precio {
+    margin: 40% 0;
+}
+
+@media (max-width: 768px) {
+    .divGeneral {
+        border-radius: 10px;
+    }
+
+    .productosCont {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2%;
+    }
+}

@@ -1,0 +1,96 @@
+.fondoGeneral {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.separadorIndex {
+    border-bottom: 1px solid white;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 60px;
+    right: 60px;
+}
+
+#modulo1,
+#modulo2,
+#modulo3 {
+    border: 0px;
+    border-radius: 20px;
+}
+
+.modulos {
+    display: none;
+}
+
+.tecs {
+    display: block;
+}
+
+.btn {
+    border-radius: 20px;
+}
+
+.destacado {
+    filter: invert(70%) sepia(64%) saturate(2394%) hue-rotate(146deg) brightness(96%) contrast(97%);
+    margin-bottom: 5px;
+}
+
+div.margin{
+    margin-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+
+    .fondoGeneral {
+        background-color: rgba(0, 0, 0, 0.2);
+        font-weight: 100;
+        border-radius: 10px;
+    }
+
+    .fixed {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .navbarDisplay .barraLi {
+        display: none;
+    }
+
+    ul.navbarDisplay {
+        position: fixed;
+        top: 0;
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        width: 100%;
+        left: 0;
+        overflow-y: scroll;
+        z-index: 100;
+    }
+
+    .modulos {
+        display: block;
+    }
+
+    .tecs {
+        display: none;
+    }
+
+    div.general .padding {
+        padding-top: 40px;
+    }
+
+    div.padding {
+        margin-top: 40px;
+    }
+
+}

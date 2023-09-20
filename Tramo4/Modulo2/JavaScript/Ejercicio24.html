@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia JavaScript</title>
+    <link rel="icon" href="../../Imagenes/EggLogo.ico" type="image/ico">
+    <link href="./Css/Ejercicio.css" rel="stylesheet">
+    <link href="../../Css/general.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="general margin">
+        <h1>Ejercicio 24</h1>
+        <p class="separador">Escribir un programa de JavaScript que a través de un formulario calcule el radio de un
+            circulo y lo muestre en el HTML.</p>
+        <div class="general">
+            <label class="w-75 form-label" for="dato">Seleccione el dato que va a ingresar</label>
+            <select class="w-75 form-select" aria-label="Default select example" id="dato">
+                <option selected>Dato</option>
+                <option value="area">Área</option>
+                <option value="perimetro">Perímetro</option>
+                <option value="diametro">Diámetro</option>
+                <option value="radio">Radio</option>
+            </select>
+            <label class="w-75 form-label" for="valor" id="datoOutPut"></label>
+            <input class="w-75 form-control" id="valor" type="text" name="valor">
+        </div>
+        <button id="resolver" class="btn btn-outline-secondary">calcular</button>
+        <h3 id="salida"></h3>
+        <div id="canvasCont">
+            <canvas id="canvas"></canvas>
+        </div>
+
+        <a id="enlaceAtras" class="enlaceAtras" href="../JavaScript.html"> <button id="atrasBtn"
+                class="btn ejercicio btnAtras"><img id="flechaAtras" class="imgAtras" src="./Imagenes/Izquierda.png"
+                    alt="">Volver</button></a>
+    </div>
+    <script src="./JavaScript/Ejercicio 24.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia JavaScript</title>
+    <link rel="icon" href="../../Imagenes/EggLogo.ico" type="image/ico">
+    <link href="./Css/Ejercicio.css" rel="stylesheet">
+    <link href="../../Css/general.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="formulario" class="general margin">
+        <h1>Ejercicio 13</h1>
+        <p class="separador">Crear un objeto persona, con las propiedades nombre, edad, sexo ('H' hombre, 'M' mujer,
+            'O' otro), peso y altura. A continuación, muestre las propiedades del objeto JavaScript.</p>
+        <div class="general">
+            <h2>Inscripcion</h2>
+            <label class="w-75 form-label" for="nombre">Nombre</label>
+            <input class="w-75 form-control" id="nombre" type="text" name="nombre">
+            <label class="w-75 form-label" for="edad">Edad</label>
+            <input class="w-75 form-control" id="edad" type="number" name="edad">
+            <label class="w-75 form-label" for="sexo">Sexo</label>
+            <select class="w-75 form-select" aria-label="Default select example" id="sexo">
+                <option selected>Sexo</option>
+                <option value="H">Hombre</option>
+                <option value="M">Mujer</option>
+                <option value="O">Otro</option>
+            </select>
+            <label class="w-75 form-label" for="peso">Peso</label>
+            <input class="w-75 form-control" id="peso" type="text" name="peso">
+            <label class="w-75 form-label" for="altura">Altura</label>
+            <input class="w-75 form-control" id="altura" type="text" name="altura">
+
+            <button id="cargar" class="btn btn-outline-secondary">Cargar</button>
+            <h3 id="salida"></h3>
+        </div>
+        <a class="enlaceAtras" href="../JavaScript.html"> <button class="btn ejercicio btnAtras"><img class="imgAtras"
+                    src="./Imagenes/Izquierda.png" alt="">Volver</button></a>
+    </div>
+    <script src="./JavaScript/Ejercicio 13.js"></script>
+</body>
+
+</html>

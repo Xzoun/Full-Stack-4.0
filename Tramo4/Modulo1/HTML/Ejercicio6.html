@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="icon" href="../../Imagenes/EggLogo.ico" type="image/ico">
+    <link href="./Css/Ejercicio.css" rel="stylesheet">
+    <link href="../../Css/general.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="general">
+        <h1>Ejercicio 6</h1>
+        <p> Por último, vamos a crear un formulario para registrar un usuario que se vea de la
+            siguiente manera: </p>
+        <img src="./Imagenes/Ejercicio 6 Enunciado.png" alt="Enunciado Ej. 6">
+        <p class="separador">Es importante que en las casillas de sexo del usuario se puede clickear la/s palabra/s
+            hombre, mujer o prefiero no decir para seleccionar la opción. Recordemos que eso lo
+            podemos hacer con la etiqueta label.</p>
+        <div class="general">
+            <form class="margin" action="ruta del método que va a manejar la información" method="POST"
+                enctype="multipart/form-data">
+                <h1>Registrar usuario</h1>
+                <label for="user">Nombre del usuario</label> <br>
+                <input id="user" type="text" name="nombre"> <br>
+
+                <label for="password">Contraseña del usuario</label> <br>
+                <input id="password" type="password" name="clave "> <br>
+
+                <label for="age">Edad del usuario</label> <br>
+                <input id="age" type="numer" name="edad"> <br>
+
+                <label>Fecha de nacimiento del usuario</label> <br>
+                <input type="date" name="fechanac"> <br>
+
+                <label>Sexo del usuario</label> <br>
+                <label for="m">Hombre</label>
+                <input id="m" type="radio" name="sexo" value="Hombre"><br>
+
+                <label for="f">Mujer</label>
+                <input id="f" type="radio" name="sexo" value="Mujer"><br>
+
+                <label for="o">Otro</label>
+                <input id="o" type="radio" name="sexo" value="Otro"><br>
+
+                <label>País nacimiento del usuario</label>
+                <br>
+                <select name="pais">
+                    <option>Argentina</option>
+                    <option>Brasil</option>
+                    <option>Chile</option>
+                    <option>Uruguay</option>
+                </select> <br>
+
+                <button class="boton" type="reset">Enviar</button>
+                <button class="boton" type="reset">Borrar</button>
+            </form>
+        </div>
+   
+        <a class="enlaceAtras" href="../html.html">
+            <img class="imgAtras" src="./Imagenes/Izquierda.png" alt="flechaAtras">
+            <button class="btnPrimeros btnAtras">Volver</button>
+        </a>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+/* ----------------------------- General ----------------------------- */
+
+body {
+    scroll-behavior: smooth;
+}
+
+/* ----------------------------- ScrollBar ----------------------------- */
+
+.general {
+    margin: 20px;
+    padding: 20px;
+}
+
+.separador{
+    border-bottom: solid black 1px;
+    padding-bottom: 5px;
+}
+
+body::-webkit-scrollbar,
+.general::-webkit-scrollbar {
+    width: 7px;
+    height: 0px;
+    margin-right: 3px;
+    background-color: #2e2e2e;
+}
+
+body:hover::-webkit-scrollbar-thumb,
+.general:hover::-webkit-scrollbar-thumb {
+    background-color: #53D1FA;
+    border-radius: 12px;
+}
+
+body::-webkit-scrollbar-thumb:hover,
+.general::-webkit-scrollbar-thumb:hover {
+    width: 7px;
+    background-color: #FAA852;
+    border-radius: 12px;
+}
+
+/* ----------------------------- Enlace Atras ----------------------------- */
+
+.enlaceAtras {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.principal {
+    filter: invert(1);
+
+}
+
+.btnAtras {
+    border-radius: 8px;
+    font-size: 2ch;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
+
+.enlaceAtras:hover {
+    left: 20px;
+}
+
+.imgAtras {
+    width: 20px;
+}
+
+/* ----------------------------- Acordion ----------------------------- */
+
+.accordion-item .accordion-body {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 254, 254);
+    overflow: hidden;
+}
+
+.accordion-item h2.accordion-header button.accordion-button {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    overflow: hidden;
+    font-weight: 600;
+}
+
+/* ----------------------------- Responsive ----------------------------- */
+
+@media (max-width: 768px) {
+    .general {
+        margin: 1px;
+        padding-top: 10px;
+        padding: 1px;
+        overflow-x: scroll;
+    }
+
+}

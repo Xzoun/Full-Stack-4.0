@@ -1,0 +1,164 @@
+.btn {
+    margin-top: 20px;
+}
+
+h3 {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.ejercicio {
+    margin: 20px;
+    padding: 20px;
+}
+
+#respuesta {
+    display: none;
+}
+
+#bulto {
+    height: 300px;
+}
+
+.destacado {
+    filter: invert(70%) sepia(64%) saturate(2394%) hue-rotate(146deg) brightness(96%) contrast(97%);
+}
+
+
+/*----------------- Ejercicio 1 -------------------*/
+.pointer:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.37);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100px;
+}
+
+/*----------------- Ejercicio 4 -------------------*/
+#otro,
+#correcto {
+    display: none;
+}
+
+#bulto {
+    height: 50px;
+}
+
+#verificar,
+#otro {
+    margin-left: 60%;
+}
+
+/*----------------- Ejercicio 5 -------------------*/
+#botones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    max-width: 100%;
+}
+
+#numeros {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    grid-gap: 10px;
+}
+
+#operaciones {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(2, 100px);
+    grid-gap: 10px;
+}
+
+#extra {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(1, 100px);
+}
+
+#salidaGeneral {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-left: 35%;
+    align-items: center;
+}
+
+#salidaOperador {
+    width: 30px;
+}
+
+
+/*----------------- Ejercicio 16 -------------------*/
+
+.ejercicio16 {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+}
+
+#Array1 {
+    margin-top: 20px;
+}
+
+#Array2 {
+    margin-top: 60px;
+}
+
+/*----------------- Ejercicio 22 -------------------*/
+
+.Dark {
+    color: white;
+}
+
+.Filter {
+    filter: invert(1);
+}
+
+/*----------------- Ejercicio 24 -------------------*/
+
+#canvasCont {
+    width: 100%;
+    max-width: 1000px;
+}
+
+#canvas {
+    width: 100%;
+    height: 100%;
+}
+
+/*----------------- Responsive -------------------*/
+
+@media (max-width:768px) {
+
+    /*----------------- Ejercicio 5 -------------------*/
+    #botones {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        max-width: 100%;
+    }
+
+    #numeros {
+        grid-template-columns: repeat(3, 50%);
+        grid-template-rows: repeat(3, 75px);
+
+    }
+
+    #operaciones {
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(2, 75px);
+
+    }
+
+    #extra {
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(1, 75px);
+
+    }
+
+
+}

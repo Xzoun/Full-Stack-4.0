@@ -11,7 +11,7 @@ body {
     padding: 20px;
 }
 
-.separador{
+.separador {
     border-bottom: solid black 1px;
     padding-bottom: 5px;
 }
@@ -86,6 +86,13 @@ body::-webkit-scrollbar-thumb:hover,
     font-weight: 600;
 }
 
+/* ----------------------------- Ejercicios ----------------------------- */
+
+.marginBot {
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
 /* ----------------------------- Responsive ----------------------------- */
 
 @media (max-width: 768px) {
@@ -95,5 +102,4 @@ body::-webkit-scrollbar-thumb:hover,
         padding: 1px;
         overflow-x: scroll;
     }
-
 }

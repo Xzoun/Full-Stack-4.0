@@ -145,20 +145,44 @@ h3 {
     #numeros {
         grid-template-columns: repeat(3, 50%);
         grid-template-rows: repeat(3, 75px);
-
     }
 
     #operaciones {
         grid-template-columns: repeat(2, 50%);
         grid-template-rows: repeat(2, 75px);
-
     }
 
     #extra {
         grid-template-columns: repeat(2, 50%);
         grid-template-rows: repeat(1, 75px);
-
     }
 
+    @media (max-width:348px) {
+        #botones {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 100%;
+            grid-gap: 0px;
+        }
 
+        #numeros {
+            grid-template-columns: repeat(3, 30%);
+            grid-template-rows: repeat(3, 30%);
+            gap: 0;
+        }
+
+        #operaciones {
+            grid-template-columns: repeat(2, 70%);
+            grid-template-rows: repeat(2, 40%);
+            grid-gap: 0px;
+            gap: 0;
+        }
+
+        #extra {
+            grid-template-columns: repeat(2, 70%);
+            grid-template-rows: repeat(1, 80%);
+            gap: 0;
+        }
+    }
 }

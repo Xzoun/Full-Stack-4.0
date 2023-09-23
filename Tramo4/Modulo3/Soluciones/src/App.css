@@ -1,0 +1,289 @@
+body::before {
+  content: "";
+  background-image: url("./Imagenes/codigoFondo.jpg");
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -20;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+/* -------------- Landing -------------- */
+.App {
+  text-align: center;
+  margin: 4%;
+  padding: 2%;
+  border-radius: 50px;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.App h1 {
+  text-align: left;
+  color: white;
+}
+
+/* -------------- Landing / Logo React -------------- */
+.App-logo {
+  height: 60px;
+  pointer-events: none;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.logoImage {
+  width: 0;
+  height: 0;
+  background-size: cover;
+  background-position: center center;
+  animation: growLogo 2s ease-out forwards;
+}
+
+@keyframes growLogo {
+  from {
+    width: 0;
+    height: 0;
+  }
+
+  to {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* -------------- Landing | Acordeon -------------- */
+.Acordeon {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.linkBtn {
+  text-decoration: none;
+  color: #61dafb;
+}
+
+Button:hover .linkBtn {
+  color: black;
+}
+
+.AcordeonItem {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  color: white;
+  border: black solid 1px;
+}
+
+.accordion-button {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  color: white;
+  font-weight: 600;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+  color: white;
+  font-weight: 600;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  font-weight: 600;
+
+}
+
+/* --------------  Boton Atras -------------- */
+.enlaceAtras {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.principal {
+  filter: invert(1);
+}
+
+.btnAtras {
+  border-radius: 8px;
+  font-size: 2ch;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.enlaceAtras:hover {
+  left: 20px;
+}
+
+.imgAtras {
+  width: 20px;
+}
+
+/* -------------- Ejercicios -------------- */
+.background::before {
+  content: "";
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 600px;
+  height: 100%;
+  z-index: -5;
+}
+
+.padding {
+  padding: 2%
+}
+
+.marginBot {
+  margin-bottom: 50px;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+}
+
+.paddingNavFixed {
+  padding-top: 5%;
+}
+
+/* -------------- 2 -------------- */
+
+.borderBot {
+  border-bottom: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.footerLogo {
+  width: 30px;
+}
+
+.linkLogo {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.centerFlex {
+  align-items: center;
+  justify-content: space-around;
+}
+
+.borderTop {
+  border-top: black solid 1px;
+}
+
+/* -------------- 4 -------------- */
+
+.navPadding {
+  padding: 2%;
+  background-color: black;
+}
+
+.linkWhite {
+  text-decoration: none;
+  color: white;
+}
+
+.linkPadding-right {
+  padding-right: 2%;
+}
+
+/* -------------- 5 -------------- */
+.outPut {
+  margin-top: 30px;
+  padding: 10px;
+  text-align: center;
+}
+
+/* -------------- 6 -------------- */
+.characterPhoto {
+  border-radius: 100%;
+  border: black 2px solid;
+  width: 20%;
+}
+
+.characterDesc {
+  display: flex;
+  flex-direction: column;
+  gap: 2%;
+  margin-left: 2%;
+}
+
+.characterCard {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-color: rgba(97, 218, 251, 0.329);
+  border-radius: 50px;
+}
+
+.card {
+  border: none;
+}
+
+/* -------------- Responsive -------------- */
+
+@media (max-width: 768px) {
+  .AcordeonItem {
+    overflow-x: scroll;
+  }
+
+  .marginBot {
+    margin-bottom: 30px;
+  }
+
+  .marginTop {
+    margin-top: 30px;
+  }
+}

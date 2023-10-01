@@ -9,12 +9,11 @@ Note: All the documentation and excercises is in Spanish.
 - [Section 3: BackEnd 2: Java and Databases](#section-3)
 - [Section 4: FrontEnd](#section-4)
 - [JavaScript Guide Exercise Showcase](#javascript-guide-exercises)
-- [Section 5: Spring MVC](#section-5)
 - [Full Stack Junior Course Certificates, Egg Cooperation](#certificates)
 
 You'll encounter a wide range of languages and technologies, such as Java, JavaScript, and SQL. Including pseudocode to build a solid foundation in programming logic using the PseInt tool.
 
-From the basics of web development with HTML and CSS to mastering essential frameworks like Bootstrap for creating appealing interfaces. We also delve into advanced technologies like React and Spring, enabling you to build modern and powerful web applications.
+From the basics of web development with HTML and CSS to mastering essential frameworks like Bootstrap for creating appealing interfaces. We also delve into advanced technologies like React, enabling you to build modern and powerful web applications.
 
 This repository represents the core of my education. Following this guide, I've learned, practiced, and grown my ability to create comprehensive technological solutions.
 
@@ -71,11 +70,7 @@ Definition and Characteristics | Variables and Data Types | Objects | JSON | API
 ### Module 3 | React and Node.js
 Definition and Characteristics | JSX | Components | Lifecycle | React Hooks.
 
-## Section 5
-### Spring MVC
-
-### Module 1 | Spring MVC
-Definition and Characteristics | Best Practices | Spring Register & Login.
+-------------------------------------------------------------------------------------------------------------------
 
 ## JavaScript Guide Exercises
 Here you can find a webpage created with the purpose of applying knowledge of JavaScript, Bootstrap, HTML and CSS.

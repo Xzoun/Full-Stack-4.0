@@ -6,14 +6,13 @@ En colaboración con el gobierno argentino y la entidad Egg Cooperation, el curs
 - [Tramo 2: BackEnd 1: Java](#tramo-2)
 - [Tramo 3: BackEnd 2: Java y Bases de Datos](#tramo-3)
 - [Tramo 4: FrontEnd](#tramo-4)
-- [Tramo 5: Spring MVC](#tramo-5)
 - [Muestrario de ejercitacion Guia JavaScript](#ejercicios-guia-frontend)
 - [Certificados del Curso Full Stack junior, Egg Cooperation](#certificados)
 
 
 Encontrarás una amplia gama de lenguajes y tecnologías, como Java, JavaScript y SQL. Incluyendo pseudocódigo para construir una base sólida en lógica de programación, utilizando la herramienta PseInt. 
 
-Las bases del desarrollo web con HTML y CSS, para dominar el uso de frameworks esenciales como Bootstrap para la creación de interfaces atractivas. También profundizamos en tecnologías avanzadas como React y Spring, que permitirán construir aplicaciones web modernas y potentes.
+Las bases del desarrollo web con HTML y CSS, para dominar el uso de frameworks esenciales como Bootstrap para la creación de interfaces atractivas. También profundizamos en tecnologías avanzadas como React, que permitirán construir aplicaciones web modernas y potentes.
 
 Este repositorio representa las bases de mi formación. Siguiendo esta guía aprendí, practiqué y crecí en mi capacidad de crear soluciones tecnológicas completas.
 
@@ -84,14 +83,7 @@ Definición y características | Variables y Tipo de Datos | Objetos | JSON | AP
 
 Definición y características | JSX | Componentes | Ciclo de Vida | React Hooks.
 
-## Tramo 5
-### Spring MVC
-
-### Modulo 1 | Spring MVC
-
-Definicion y caracteristicas | Buenas Practicas | Spring Register & Login.
-
------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
 
 ## Ejercicios Guia FrontEnd
 
